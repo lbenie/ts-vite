@@ -706,7 +706,7 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@rollup/plugin-typescript@^8.3.0":
+"@rollup/plugin-typescript@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-8.3.0.tgz#bc1077fa5897b980fc27e376c4e377882c63e68b"
   integrity sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==
@@ -723,7 +723,7 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@semantic-release/changelog@^6.0.1":
+"@semantic-release/changelog@6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-6.0.1.tgz#8dd0334fd8c7d50cda747d2591e4f18f816b3c9c"
   integrity sha512-FT+tAGdWHr0RCM3EpWegWnvXJ05LQtBkQUaQRIExONoXjVjLuOILNm4DEKNaV+GAQyJjbLRVs57ti//GypH6PA==
@@ -743,7 +743,7 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-3.0.0.tgz#30a3b97bbb5844d695eb22f9d3aa40f6a92770c2"
   integrity sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==
 
-"@semantic-release/git@^10.0.1":
+"@semantic-release/git@10.0.1":
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.1.tgz#c646e55d67fae623875bf3a06a634dd434904498"
   integrity sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==
@@ -757,7 +757,7 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@^8.0.2":
+"@semantic-release/github@8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.2.tgz#80114a41f6ec8ab6c0d38a436b48ff3f2223ab16"
   integrity sha512-wIbfhOeuxlYzMTjtSAa2xgr54n7ZuPAS2gadyTWBpUt2PNAPgla7A6XxCXJnaKPgfVF0iFfSk3B+KlVKk6ByVg==
@@ -802,7 +802,7 @@
     mutation-testing-report-schema "1.7.6"
     tslib "~2.3.0"
 
-"@stryker-mutator/core@^5.5.1":
+"@stryker-mutator/core@5.5.1":
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-5.5.1.tgz#2279ec7df5e7ed18e10c56b795845d983ce8f3b2"
   integrity sha512-w6qfhFQPo0SAMqVXCCmBilGDBtbqEjm3+/+cNrgGmfu+NWlR/CE4xAWQCKTlRKLvBUGebrzPZ2ofQTnWQGom3A==
@@ -853,7 +853,7 @@
     angular-html-parser "~1.8.0"
     weapon-regex "~0.6.0"
 
-"@stryker-mutator/jest-runner@^5.5.1":
+"@stryker-mutator/jest-runner@5.5.1":
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-5.5.1.tgz#0778d71f3bf0b33afd769d64734a7c11b2908ffc"
   integrity sha512-6aqJU7gKDViEh2aJwvNO3wxhTbdsOOx0sy1P0pfuaXiZEmiFhcxNFiohuzxUeXjyBY6G21lyiZ0X4eWxC7BXzA==
@@ -1044,7 +1044,7 @@ ajv@~8.8.2:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-all-contributors-cli@^6.20.0:
+all-contributors-cli@6.20.0:
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.20.0.tgz#9bc98dda38cb29cfe8afc8a78c004e14af25d2f6"
   integrity sha512-trEQlL1s1u8FSWSwY2w9uL4GCG7Fo9HIW5rm5LtlE0SQHSolfXQBzJib07Qes5j52/t72wjuE6sEKkuRrwiuuQ==
@@ -1455,7 +1455,7 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-concurrently@^6.5.0:
+concurrently@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-6.5.0.tgz#57082bfe797f93cf4a437ce54742c56823a8ea05"
   integrity sha512-BjC0KYxXtO6EiWa46gfWYzcLULPBCb+5+VZFtzCemR/co0QSHU4mysEvmT6cnedPpQ9dtJzb+2G694o3V7TgLg==
@@ -1469,7 +1469,7 @@ concurrently@^6.5.0:
     tree-kill "^1.2.2"
     yargs "^16.2.0"
 
-conventional-changelog-conventionalcommits@^4.6.1:
+conventional-changelog-conventionalcommits@4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.1.tgz#f4c0921937050674e578dc7875f908351ccf4014"
   integrity sha512-lzWJpPZhbM1R0PIzkwzGBCnAkH5RKJzJfFQZcl/D+2lsJxAwGnDKBqn/F4C1RD31GJNn8NuKWQzAZDAVXPp2Mw==
@@ -2336,7 +2336,7 @@ istanbul-reports@^3.0.2:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
-jest-chain@^1.1.5:
+jest-chain@1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/jest-chain/-/jest-chain-1.1.5.tgz#57b804d7d23f7c8455b62051795cfe5c444fa262"
   integrity sha512-bTx51vQP/6/XVDrMtz0WmT3wZoXvj5QAAnw1to+o6pvtjcwTIVuB6uR5URRXH/9rHf1WuM1UgsfVTWhTC/QAzw==
@@ -2484,7 +2484,7 @@ jest-environment-node@^27.4.4:
     jest-mock "^27.4.2"
     jest-util "^27.4.2"
 
-jest-extended@^1.2.0:
+jest-extended@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/jest-extended/-/jest-extended-1.2.0.tgz#6ef87d806bd9501a0aeae56fe8c7af73777987ed"
   integrity sha512-KYc5DgD+/8viJSEKBzb1vRXe/rEEQUxEovBTdNEer9A6lzvHvhuyslM5tQFBz8TbLEkicCmsEcQF+4N7GiPTLg==
@@ -2798,7 +2798,7 @@ jest-worker@^27.4.5:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.4.5:
+jest@27.4.5:
   version "27.4.5"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.4.5.tgz#66e45acba44137fac26be9d3cc5bb031e136dc0f"
   integrity sha512-uT5MiVN3Jppt314kidCk47MYIRilJjA/l2mxwiuzzxGUeJIvA8/pDaJOAX5KWvjAo7SCydcW0/4WEtgbLMiJkg==
@@ -3309,7 +3309,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.5.1:
+prettier@2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
@@ -3463,7 +3463,7 @@ rimraf@^3.0.0, rimraf@~3.0.0:
   dependencies:
     glob "^7.1.3"
 
-rollup-plugin-peer-deps-external@^2.2.4:
+rollup-plugin-peer-deps-external@2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.4.tgz#8a420bbfd6dccc30aeb68c9bf57011f2f109570d"
   integrity sha512-AWdukIM1+k5JDdAqV/Cxd+nejvno2FVLVeZ74NKggm3Q5s9cbbcOgUPGdbxPi4BXu7xGaZ8HG12F+thImYu/0g==
@@ -3782,12 +3782,12 @@ tree-kill@^1.2.2, tree-kill@~1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-ts-jest-mock@^1.1.3:
+ts-jest-mock@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/ts-jest-mock/-/ts-jest-mock-1.1.3.tgz#2a488ca16e2b0af4be1e320c4e17ac0f0d5fe605"
   integrity sha512-0Hmm7hB/hS7GmLLHeYtJlFyFaHCCkNI76UZ2+7ziufwYqA+szGOCgsf2Msdg6lrcp8nlQJLiP2WPY4jNSIx22g==
 
-ts-jest@^27.1.2:
+ts-jest@27.1.2:
   version "27.1.2"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-27.1.2.tgz#5991d6eb3fd8e1a8d4b8f6de3ec0a3cc567f3151"
   integrity sha512-eSOiJOWq6Hhs6Khzk5wKC5sgWIXgXqOCiIl1+3lfnearu58Hj4QpE5tUhQcA3xtZrELbcvAGCsd6HB8OsaVaTA==
@@ -3859,7 +3859,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.5.4:
+typescript@4.5.4:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
   integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
@@ -3910,7 +3910,7 @@ v8-to-istanbul@^8.1.0:
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
 
-vite@^2.7.3:
+vite@2.7.3:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.3.tgz#e983cf4f71f42c192436bfcad1b75932642da293"
   integrity sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==
