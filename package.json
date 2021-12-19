@@ -1,0 +1,50 @@
+{
+  "name": "my-awesome-lib",
+  "version": "0.0.1",
+  "description": "my awesome description",
+  "repository": {
+    "url": ""
+  },
+  "keywords": [],
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-awesome-lib.umd.js",
+  "module": "./dist/my-awesome-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-awesome-lib.es.js",
+      "require": "./dist/my-awesome-lib.umd.js"
+    }
+  },
+  "types": "dist/types/my-awesome-lib.d.ts",
+  "scripts": {
+    "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
+    "test:mutation": "stryker run",
+    "format": "prettier lib --write",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@stryker-mutator/core": "^5.5.1",
+    "@stryker-mutator/jest-runner": "^5.5.1",
+    "@types/jest": "^27.0.3",
+    "all-contributors-cli": "^6.20.0",
+    "concurrently": "^6.5.0",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "jest": "^27.4.5",
+    "jest-chain": "^1.1.5",
+    "jest-extended": "^1.2.0",
+    "prettier": "^2.5.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "ts-jest": "^27.1.2",
+    "ts-jest-mock": "^1.1.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.3"
+  }
+}

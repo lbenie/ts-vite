@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "declarationDir": "dist/types",
+    "declaration": true
+  },
+  "include": [
+    "lib/**/*.ts",
+    "global.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib/sample",
+    "*.spec.ts"
+  ]
+}
