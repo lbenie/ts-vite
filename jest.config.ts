@@ -1,7 +1,7 @@
-/**
- * @type {import('@jest/types').Config.InitialOptions}
- */
-module.exports = {
+import type { Config } from '@jest/types'
+
+const config: Config.InitialOptions = {
+  testEnvironment: 'jsdom',
   preset: 'ts-jest',
   setupFilesAfterEnv: ['jest-chain', 'jest-extended'],
   coverageReporters: ['html', 'lcov', 'text'],
@@ -21,7 +21,10 @@ module.exports = {
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.spec.json',
+      useESM: true,
     },
   },
   collectCoverageFrom: ['lib/**/*.ts', '!lib/sample/**/*.ts'],
 }
+
+export default config

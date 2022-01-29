@@ -6,6 +6,9 @@
   "include": [
     "lib/**/*.spec.ts",
     "jest.config.js",
-    "global.d.ts"
+    "global.d.ts",
+    ".eslintrc.js",
+    "vite.config.ts",
+    "jest.config.ts"
   ]
 }
