@@ -19,7 +19,7 @@
       "require": "./dist/my-awesome-lib.umd.js"
     }
   },
-  "types": "dist/types/my-awesome-lib.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
     "test:mutation": "stryker run",
