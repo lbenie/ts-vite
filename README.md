@@ -1,12 +1,14 @@
 # ts-vite
+
 TypeScript starter lib using vite
 
 ## Usage
 
-Replace all `my-awesome-lib` occurrence  in `package.json` for your library name.
+Replace all `lib` occurrence in `package.json` for your library name.
+
+Replace description in `package.json`.
 
 Put your github alias in `.github/funding.yml` instead of mine.
-
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
