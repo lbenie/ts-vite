@@ -5,7 +5,8 @@
   },
   "include": [
     "__tests__",
-    "auto-imports.d.ts"
+    "auto-imports.d.ts",
+    "vite.config.ts"
   ],
   "exclude": ["node_modules"]
 }
