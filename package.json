@@ -1,5 +1,5 @@
 {
-  "name": "my-awesome-lib",
+  "name": "lib",
   "version": "0.0.1",
   "description": "my awesome description",
   "repository": {
@@ -11,18 +11,18 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/my-awesome-lib.umd.js",
-  "module": "./dist/my-awesome-lib.es.js",
+  "main": "./dist/lib.umd.js",
+  "module": "./dist/lib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-awesome-lib.es.js",
-      "require": "./dist/my-awesome-lib.umd.js"
+      "import": "./dist/lib.es.js",
+      "require": "./dist/lib.umd.js"
     }
   },
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
-    "test:mutation": "stryker run",
+    "test": "concurrently -n vitest 'vitest --coverage'",
+    "test:vitest": "vitest",
     "format": "eslint 'lib/**/*.ts' --fix",
     "build": "vite build"
   },
@@ -31,26 +31,23 @@
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.2",
-    "@stryker-mutator/core": "5.6.1",
-    "@stryker-mutator/jest-runner": "5.6.1",
-    "@types/jest": "27.4.1",
-    "all-contributors-cli": "6.20.0",
-    "concurrently": "7.0.0",
-    "conventional-changelog-conventionalcommits": "4.6.3",
-    "jest": "27.5.1",
     "@typescript-eslint/eslint-plugin": "5.16.0",
     "@typescript-eslint/parser": "5.16.0",
+    "all-contributors-cli": "6.20.0",
+    "c8": "7.11.0",
+    "concurrently": "7.0.0",
+    "conventional-changelog-conventionalcommits": "4.6.3",
     "eslint": "8.11.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
-    "jest-chain": "1.1.5",
-    "jest-extended": "2.0.0",
+    "jsdom": "^19.0.0",
     "prettier": "2.6.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "ts-jest": "27.1.4",
     "ts-jest-mock": "1.1.31",
     "typescript": "4.6.3",
+    "unplugin-auto-import": "0.6.6",
     "vite": "2.8.6",
-    "ts-node": "10.7.0"
+    "vitest": "^0.7.11"
   }
 }

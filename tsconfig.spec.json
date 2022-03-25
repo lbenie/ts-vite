@@ -4,11 +4,8 @@
     "esModuleInterop": true
   },
   "include": [
-    "lib/**/*.spec.ts",
-    "jest.config.js",
-    "global.d.ts",
-    ".eslintrc.js",
-    "vite.config.ts",
-    "jest.config.ts"
-  ]
+    "__tests__",
+    "auto-imports.d.ts"
+  ],
+  "exclude": ["node_modules"]
 }
