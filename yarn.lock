@@ -1612,7 +1612,7 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
-jsdom@^19.0.0:
+jsdom@19.0.0:
   version "19.0.0"
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-19.0.0.tgz#93e67c149fe26816d38a849ea30ac93677e16b6a"
   integrity sha512-RYAyjCbxy/vri/CfnjUWJQQtZ3LKlLnDqj+9XLNnJPgEGeirZs3hllKR20re8LUZ6o1b1X4Jat+Qd26zmP41+A==
@@ -2505,7 +2505,7 @@ vite@2.8.6, vite@^2.8.6:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitest@^0.7.11:
+vitest@0.7.11:
   version "0.7.11"
   resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.7.11.tgz#db88faeec570014b3f771077826f1ceee05e3c4d"
   integrity sha512-xCEUBCpqiIVhUFIMCKKXDZ/bcPLk2EhPmTFA9qw+Kf+B2d/gm3ZBdUAMa3jIZNZ/d3esji5H6XZPNAk//9K4Kw==
