@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { defineConfig } from 'vitest/config'
 import { resolve } from 'path'
 import { name } from './package.json'
