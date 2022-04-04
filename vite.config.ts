@@ -10,6 +10,7 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     clearMocks: true,
+    setupFiles: [resolve(__dirname, 'config', 'api.ts')],
   },
   plugins: [
     AutoImport({
@@ -19,7 +20,7 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: resolve(__dirname, 'lib/index.ts'),
+      entry: resolve(__dirname, 'lib', 'index.ts'),
       name,
     },
     rollupOptions: {
