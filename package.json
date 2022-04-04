@@ -24,7 +24,9 @@
   "scripts": {
     "test": "concurrently -n vitest 'vitest --coverage'",
     "test:vitest": "vitest",
-    "format": "eslint 'lib/**/*.ts' --fix",
+    "format": "concurrently -n lib, test 'yarn format:lib' 'yarn format:test'",
+    "format:lib": "eslint 'lib/**/*.ts' --fix",
+    "format:test": "eslint '__tests__/**/*.spec.ts' --fix",
     "build": "vite build"
   },
   "devDependencies": {
