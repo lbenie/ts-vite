@@ -13,14 +13,14 @@ const posts = [
 
 export const restHandlers = [
   rest.get('https://rest-endpoint.example/path/to/posts', (req, res, ctx) =>
-    res(ctx.status(200), ctx.json(posts))
+    res(ctx.status(200), ctx.json(posts)),
   ),
 ]
 
 const graphqlHandlers = [
   graphql.query(
     'https://graphql-endpoint.example/api/v1/posts',
-    (req, res, ctx) => res(ctx.data(posts))
+    (req, res, ctx) => res(ctx.data(posts)),
   ),
 ]
 

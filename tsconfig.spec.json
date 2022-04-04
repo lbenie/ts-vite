@@ -8,7 +8,9 @@
     "__tests__",
     "auto-imports.d.ts",
     "vite.config.ts",
-    "config"
+    "config",
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
