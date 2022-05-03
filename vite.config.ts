@@ -13,6 +13,9 @@ export default defineConfig({
     environment: 'jsdom',
     clearMocks: true,
     setupFiles: [resolve(__dirname, 'config', 'api.ts')],
+    coverage: {
+      exclude: ['config/**', '__tests__/**'],
+    },
   },
   plugins: [
     AutoImport({
