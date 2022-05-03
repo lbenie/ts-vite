@@ -116,11 +116,11 @@ module.exports = {
       {
         assets: [
           {
-            path: 'dist/ts-jest-mock.js',
+            path: '<modify_me>',
             label: 'ES js distribution',
           },
           {
-            path: 'dist/ts-jest-mock.js',
+            path: '<modify_me>',
             label: 'UMD js distribution',
           },
         ],
