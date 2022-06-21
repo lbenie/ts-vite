@@ -15,9 +15,9 @@
   "module": "./dist/lib.es.js",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/lib.es.js",
-      "require": "./dist/lib.umd.js",
-      "types": "./dist/types/index.d.ts"
+      "require": "./dist/lib.umd.js"
     }
   },
   "types": "dist/types/index.d.ts",
