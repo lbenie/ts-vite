@@ -46,7 +46,7 @@
     "eslint-plugin-functional": "4.2.1",
     "eslint-plugin-prettier": "4.0.0",
     "jsdom": "20.0.0",
-    "msw": "0.42.1",
+    "msw": "0.42.2",
     "prettier": "2.7.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "tsutils": "3.21.0",
