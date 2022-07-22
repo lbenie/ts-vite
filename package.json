@@ -43,7 +43,7 @@
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-functional": "4.2.1",
+    "eslint-plugin-functional": "4.2.2",
     "eslint-plugin-prettier": "4.2.1",
     "jsdom": "20.0.0",
     "msw": "0.44.2",
