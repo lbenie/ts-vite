@@ -10,7 +10,8 @@
   },
   "include": [
     "lib/**/*.ts",
-    "./.eslintrc.cjs"
+    "./.eslintrc.cjs",
+    "./release.config.cjs"
   ],
   "exclude": [
     "node_modules",
