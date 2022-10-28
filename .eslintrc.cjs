@@ -1,5 +1,5 @@
 /**
- * @type {import('eslint').CLIEngine.Options}
+ * @type {import('eslint').ESLint.Options}
  */
 module.exports = {
   root: true,
