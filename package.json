@@ -47,7 +47,7 @@
     "eslint-config-prettier": "8.7.0",
     "eslint-plugin-functional": "4.4.1",
     "eslint-plugin-prettier": "4.2.1",
-    "jsdom": "21.1.0",
+    "jsdom": "21.1.1",
     "msw": "1.1.0",
     "prettier": "2.8.4",
     "rollup-plugin-peer-deps-external": "2.2.4",
