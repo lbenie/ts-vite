@@ -38,7 +38,7 @@
     "@types/semantic-release": "20.0.1",
     "@typescript-eslint/eslint-plugin": "5.57.0",
     "@typescript-eslint/parser": "5.57.0",
-    "@vitest/coverage-c8": "0.29.7",
+    "@vitest/coverage-c8": "0.29.8",
     "all-contributors-cli": "6.24.0",
     "c8": "7.13.0",
     "concurrently": "7.6.0",
@@ -55,6 +55,6 @@
     "typescript": "5.0.2",
     "unplugin-auto-import": "0.12.1",
     "vite": "4.2.1",
-    "vitest": "0.29.7"
+    "vitest": "0.29.8"
   }
 }
