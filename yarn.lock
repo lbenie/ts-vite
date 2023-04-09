@@ -1037,6 +1037,13 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
+brace-expansion@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-2.0.1.tgz#1edc459e0f0c548486ecf9fc99f2221364b9a0ae"
+  integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
+  dependencies:
+    balanced-match "^1.0.0"
+
 braces@^3.0.1, braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -2624,10 +2631,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-string@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
-  integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
+magic-string@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.0.tgz#fd58a4748c5c4547338a424e90fa5dd17f4de529"
+  integrity sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
@@ -2706,6 +2713,13 @@ minimatch@^3.0.5, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
+minimatch@^7.4.3:
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-7.4.5.tgz#e721f2a6faba6846f3b891ccff9966dcf728813e"
+  integrity sha512-OzOamaOmNBJZUv2qqY1OSWa+++4YPpOkLgkc0w30Oov5ufKlWWXnFUl0l4dgmSv5Shq/zRVkEOXAe2NaqO4l5Q==
+  dependencies:
+    brace-expansion "^2.0.1"
+
 mlly@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.0.0.tgz#d38ca6e33ab89b60654f71ef08931d51e83d3569"
@@ -2715,6 +2729,16 @@ mlly@^1.0.0:
     pathe "^1.0.0"
     pkg-types "^1.0.0"
     ufo "^1.0.0"
+
+mlly@^1.1.1, mlly@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.2.0.tgz#f0f6c2fc8d2d12ea6907cd869066689b5031b613"
+  integrity sha512-+c7A3CV0KGdKcylsI6khWyts/CYrGTrRVo4R/I7u/cUsy0Conxa6LUhiEzVKIw14lc2L5aiO4+SeVe4TeGRKww==
+  dependencies:
+    acorn "^8.8.2"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    ufo "^1.1.1"
 
 mlly@^1.1.1, mlly@^1.2.0:
   version "1.2.0"
@@ -3656,6 +3680,11 @@ ufo@^1.1.1:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.1.1.tgz#e70265e7152f3aba425bd013d150b2cdf4056d7c"
   integrity sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==
 
+ufo@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.1.1.tgz#e70265e7152f3aba425bd013d150b2cdf4056d7c"
+  integrity sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==
+
 unbox-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.2.tgz#29032021057d5e6cdbd08c5129c226dff8ed6f9e"
@@ -3666,22 +3695,22 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
-unimport@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-1.0.2.tgz#3d250dea0a441010f7e710c2031d6e334c7705ef"
-  integrity sha512-DcYkDwl1XMZNmyEKUFzVzHAul0FZcj9m0OM/WRfaAtg6Gw1waYlypYJl6qAg31k57TnNPwGDCAxYPodYC5qomQ==
+unimport@^3.0.3:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.0.6.tgz#20caac4cf9a94e9233cdbe3a16f7599ae75a7df8"
+  integrity sha512-GYxGJ1Bri1oqx8VFDjdgooGzeK7jBk3bvhXmamTIpu3nONOcUMGwZbX7X0L5RA7OWMXpR4vzpSQP7pXUzJg1/Q==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
     fast-glob "^3.2.12"
-    local-pkg "^0.4.2"
-    magic-string "^0.27.0"
-    mlly "^1.0.0"
-    pathe "^1.0.0"
-    pkg-types "^1.0.1"
+    local-pkg "^0.4.3"
+    magic-string "^0.30.0"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
     scule "^1.0.0"
-    strip-literal "^1.0.0"
-    unplugin "^1.0.1"
+    strip-literal "^1.0.1"
+    unplugin "^1.3.1"
 
 universal-user-agent@^6.0.0:
   version "6.0.0"
@@ -3698,24 +3727,25 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unplugin-auto-import@0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.12.1.tgz#eea943ff85e4230110a302451e7df1e584ecd480"
-  integrity sha512-J/3ZORq5YGKG+8D5vLLOgqaHNK77izlVN07mQ752yRLqBNDbJiwPRSnUwwYqH5N6rDay1SqnJCHaUdbJ9QMI2w==
+unplugin-auto-import@0.15.2:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.15.2.tgz#e0eaaa45a64192eaa0f03b993a4a773ddbf82f3b"
+  integrity sha512-Wivfu+xccgvEZG8QtZcIvt6napfX9wyOFqM//7FHOtev8+k+dp3ykiqsEl6TODgHmqTTBeQX4Ah1JvRgUNjlkg==
   dependencies:
     "@antfu/utils" "^0.7.2"
     "@rollup/pluginutils" "^5.0.2"
-    local-pkg "^0.4.2"
-    magic-string "^0.27.0"
-    unimport "^1.0.2"
-    unplugin "^1.0.1"
+    local-pkg "^0.4.3"
+    magic-string "^0.30.0"
+    minimatch "^7.4.3"
+    unimport "^3.0.3"
+    unplugin "^1.3.1"
 
-unplugin@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.0.1.tgz#83b528b981cdcea1cad422a12cd02e695195ef3f"
-  integrity sha512-aqrHaVBWW1JVKBHmGo33T5TxeL0qWzfvjWokObHA9bYmN7eNDkwOxmLjhioHl9878qDFMAaT51XNroRyuz7WxA==
+unplugin@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.3.1.tgz#7af993ba8695d17d61b0845718380caf6af5109f"
+  integrity sha512-h4uUTIvFBQRxUKS2Wjys6ivoeofGhxzTe2sRWlooyjHXVttcVfV/JiavNd3d4+jty0SVV0dxGw9AkY9MwiaCEw==
   dependencies:
-    acorn "^8.8.1"
+    acorn "^8.8.2"
     chokidar "^3.5.3"
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.5.0"
