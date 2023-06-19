@@ -1,3 +1,4 @@
+/* eslint-disable functional/prefer-immutable-types */
 import { setupServer } from 'msw/node'
 import { graphql, rest } from 'msw'
 import { beforeAll, afterAll, afterEach } from 'vitest'

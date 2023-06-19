@@ -1,3 +1,4 @@
+/* eslint-disable functional/immutable-data */
 /**
  * @type {import('semantic-release').Options}
  */

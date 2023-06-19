@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import { defineConfig } from 'vitest/config'
+import { defineConfig, configDefaults } from 'vitest/config'
 import { resolve } from 'path'
 import { name } from './package.json'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
@@ -8,20 +8,26 @@ import typescript from '@rollup/plugin-typescript'
 import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
+  define: {
+    'import.meta.vitest': false,
+  },
   test: {
     globals: true,
     environment: 'jsdom',
     clearMocks: true,
     setupFiles: [resolve(__dirname, 'config', 'api.ts')],
+    includeSource: ['lib/**/*.ts'],
+    exclude: [...configDefaults.exclude, '**/__tests__/**', '**/__mocks__/**'],
     coverage: {
+      provider: 'c8',
       exclude: ['config/**', '__tests__/**'],
     },
   },
   plugins: [
-    AutoImport({
-      imports: ['vitest'],
-      dts: true,
-    }),
+    // AutoImport({
+    //   imports: ['vitest'],
+    //   dts: true,
+    // }),
   ],
   build: {
     lib: {
@@ -33,6 +39,14 @@ export default defineConfig({
         peerDepsExternal(),
         typescript({
           tsconfig: resolve(__dirname, 'tsconfig.json'),
+          exclude: [
+            'vite.config.ts',
+            'config/**',
+            '**/__tests__/**',
+            'auto-import.d.ts',
+            'release.config.cjs',
+            '.eslintrc.cjs',
+          ],
         }),
       ],
     },

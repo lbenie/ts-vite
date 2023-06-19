@@ -3,19 +3,24 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "typeRoots": [
+      "./node_modules",
       "node_modules/@types"
     ],
     "declarationDir": "dist/types",
-    "declaration": true
+    "declaration": true,
+    "types": ["vitest/importMeta"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
   },
   "include": [
     "lib/**/*.ts",
-    "./.eslintrc.cjs",
-    "./release.config.cjs"
+    "vite.config.ts",
+    "config",
+    "auto-import.d.ts",
+    "release.config.cjs",
+    ".eslintrc.cjs"
   ],
   "exclude": [
     "node_modules",
-    "lib/sample/**/*.ts",
-    "lib/**/*.spec.ts"
-  ]
+  ],
 }
