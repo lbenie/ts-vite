@@ -5,7 +5,7 @@ import { resolve } from 'path'
 import { name } from './package.json'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import typescript from '@rollup/plugin-typescript'
-import AutoImport from 'unplugin-auto-import/vite'
+// import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
   define: {
