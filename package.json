@@ -45,7 +45,7 @@
     "eslint": "8.44.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-functional": "5.0.8",
-    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-prettier": "5.0.0",
     "jsdom": "22.1.0",
     "msw": "1.2.2",
     "prettier": "2.8.8",
