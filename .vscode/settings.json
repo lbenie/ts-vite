@@ -9,6 +9,16 @@
     "typescriptreact",
     "javascript",
   ],
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "sass",
+    "styl",
+    "stylus"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
