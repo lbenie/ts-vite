@@ -47,7 +47,7 @@
     "eslint-plugin-functional": "6.0.0",
     "eslint-plugin-prettier": "5.0.1",
     "jsdom": "22.1.0",
-    "msw": "2.0.7",
+    "msw": "2.0.8",
     "prettier": "3.1.0",
     "rollup": "4.4.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
