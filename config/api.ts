@@ -1,7 +1,6 @@
-/* eslint-disable functional/prefer-immutable-types */
+import { afterAll, afterEach, beforeAll } from 'vitest'
 import { setupServer } from 'msw/node'
-import { graphql, rest } from 'msw'
-import { beforeAll, afterAll, afterEach } from 'vitest'
+import { HttpResponse, graphql, http } from 'msw'
 
 const posts = [
   {
@@ -10,25 +9,32 @@ const posts = [
     title: 'first post title',
     body: 'first post body',
   },
+  // ...
 ]
 
 export const restHandlers = [
-  rest.get('https://rest-endpoint.example/path/to/posts', (req, res, ctx) =>
-    res(ctx.status(200), ctx.json(posts)),
-  ),
+  http.get('https://rest-endpoint.example/path/to/posts', () => {
+    return HttpResponse.json(posts)
+  }),
 ]
 
 const graphqlHandlers = [
-  graphql.query(
-    'https://graphql-endpoint.example/api/v1/posts',
-    (req, res, ctx) => res(ctx.data(posts)),
-  ),
+  graphql.query('https://graphql-endpoint.example/api/v1/posts', () => {
+    return HttpResponse.json(
+      {
+        data: { posts },
+      },
+    )
+  }),
 ]
 
 const server = setupServer(...restHandlers, ...graphqlHandlers)
 
+// Start server before all tests
 beforeAll(() => server.listen({ onUnhandledRequest: 'error' }))
 
+//  Close server after all tests
 afterAll(() => server.close())
 
+// Reset handlers after each test `important for test isolation`
 afterEach(() => server.resetHandlers())

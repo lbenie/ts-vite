@@ -19,7 +19,7 @@ export default defineConfig({
     includeSource: ['lib/**/*.ts'],
     exclude: [...configDefaults.exclude, '**/__tests__/**', '**/__mocks__/**'],
     coverage: {
-      provider: 'c8',
+      provider: 'v8',
       exclude: ['config/**', '__tests__/**'],
     },
   },
