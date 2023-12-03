@@ -48,7 +48,7 @@
     "tslib": "2.6.2",
     "tsutils": "3.21.0",
     "typescript": "5.3.2",
-    "unplugin-auto-import": "0.17.1",
+    "unplugin-auto-import": "0.17.2",
     "vite": "5.0.4",
     "vitest": "0.34.6"
   }
