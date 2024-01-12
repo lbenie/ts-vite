@@ -5320,10 +5320,10 @@ ms@^2.0.0, ms@^2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-msw@2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-2.0.13.tgz#a3b60579223afaebc9a5a6c17bf8a75dfcb1b017"
-  integrity sha512-FN4GUOTxm+cucXsFFNIZooHWNGGGRZCa5HxcrbdPxSIZMmGkPW2XewidZPcQn6AXO5SisZtfijXFGDlme/BbUw==
+msw@2.0.14:
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-2.0.14.tgz#1fdfcad215e3c2d2fe1647bce14420c53203abbc"
+  integrity sha512-RcKx/JM/IOvjBjOA+cfNzLkSoMv408Tf+5TdgvzitM8/cPeN68004wBLXvbc2Jvwm1Sj4h8azR/WdO1wJg9iSw==
   dependencies:
     "@bundled-es-modules/cookie" "^2.0.0"
     "@bundled-es-modules/js-levenshtein" "^2.0.1"
