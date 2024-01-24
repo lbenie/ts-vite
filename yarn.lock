@@ -7640,10 +7640,10 @@ unicorn-magic@^0.1.0:
   resolved "https://registry.yarnpkg.com/unicorn-magic/-/unicorn-magic-0.1.0.tgz#1bb9a51c823aaf9d73a8bfcd3d1a23dde94b0ce4"
   integrity sha512-lRfVq8fE8gz6QMBuDM6a+LO3IAzTi05H6gCVaUpir2E1Rwpo4ZUog45KpNXKC/Mn3Yb9UDuHumeFTo9iV/D9FQ==
 
-unimport@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.7.0.tgz#8c9bfe044c811a69f41de0c260c2efcba3e00c87"
-  integrity sha512-vesCVjU3CYk41UZNY10kwii7l77vcP4IxPbBMgpve+vean7g7zJWrcCqSoG7u0eB9LZ5bM5BP+3vr3W2uYk0Yg==
+unimport@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.7.1.tgz#37250d0f3f2dcf1e1b66ed13728db0e9f50ba0c3"
+  integrity sha512-V9HpXYfsZye5bPPYUgs0Otn3ODS1mDUciaBlXljI4C2fTwfFpvFZRywmlOu943puN9sncxROMZhsZCjNXEpzEQ==
   dependencies:
     "@rollup/pluginutils" "^5.1.0"
     acorn "^8.11.2"
@@ -7695,10 +7695,10 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unplugin-auto-import@0.17.3:
-  version "0.17.3"
-  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.17.3.tgz#32ad40bea8ba4e9d37d69548acc74b08b6ed5d97"
-  integrity sha512-0cn0wr8X579TtdZKUAps0dDVrYzttx38ImdxZjmCeNlMDJX8UuSjO83vFqgS4ClNDIGWAute+xl9j5vRSX+vsw==
+unplugin-auto-import@0.17.4:
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.17.4.tgz#97186f6c9362e559cf1d5216d89409f95af683a7"
+  integrity sha512-sInr7+UOeFMtiRCr7lYZXouTnVqXNUJtN5yN5GDzg6Sr2rwY5ZWZmqf4yvItYCm8mq1PdzPw3oojYHgZAJnTRQ==
   dependencies:
     "@antfu/utils" "^0.7.7"
     "@rollup/pluginutils" "^5.1.0"
@@ -7706,7 +7706,7 @@ unplugin-auto-import@0.17.3:
     local-pkg "^0.5.0"
     magic-string "^0.30.5"
     minimatch "^9.0.3"
-    unimport "^3.7.0"
+    unimport "^3.7.1"
     unplugin "^1.6.0"
 
 unplugin@^1.5.1:
