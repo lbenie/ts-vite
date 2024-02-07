@@ -47,7 +47,7 @@
     "msw": "2.1.4",
     "rollup": "4.9.6",
     "rollup-plugin-peer-deps-external": "2.2.4",
-    "semantic-release": "23.0.1",
+    "semantic-release": "23.0.2",
     "tslib": "2.6.2",
     "tsutils": "3.21.0",
     "typescript": "5.3.3",
