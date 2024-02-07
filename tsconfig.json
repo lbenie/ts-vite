@@ -8,7 +8,9 @@
     ],
     "declarationDir": "dist/types",
     "declaration": true,
-    "types": ["vitest/importMeta"],
+    "types": [
+      "vitest/importMeta"
+    ],
     "esModuleInterop": true,
     "resolveJsonModule": true,
   },
@@ -17,8 +19,6 @@
     "vite.config.ts",
     "config",
     "auto-import.d.ts",
-    "release.config.cjs",
-    ".eslintrc.cjs"
   ],
   "exclude": [
     "node_modules",

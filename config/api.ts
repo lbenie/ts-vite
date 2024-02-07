@@ -20,11 +20,9 @@ export const restHandlers = [
 
 const graphqlHandlers = [
   graphql.query('https://graphql-endpoint.example/api/v1/posts', () => {
-    return HttpResponse.json(
-      {
-        data: { posts },
-      },
-    )
+    return HttpResponse.json({
+      data: { posts },
+    })
   }),
 ]
 

@@ -4,6 +4,7 @@
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "eslint.experimental.useFlatConfig": true,
   "eslint.validate": [
     "typescript",
     "typescriptreact",
@@ -20,6 +21,6 @@
     "stylus"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "always"
   },
 }
