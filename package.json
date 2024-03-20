@@ -52,7 +52,7 @@
     "tsutils": "3.21.0",
     "typescript": "5.4.2",
     "unplugin-auto-import": "0.17.5",
-    "vite": "5.2.0",
+    "vite": "5.2.2",
     "vitest": "1.4.0"
   }
 }
