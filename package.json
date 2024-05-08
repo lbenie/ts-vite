@@ -44,7 +44,7 @@
     "concurrently": "8.2.2",
     "conventional-changelog-conventionalcommits": "7.0.2",
     "jsdom": "24.0.0",
-    "msw": "2.2.14",
+    "msw": "2.3.0",
     "rollup": "4.17.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "semantic-release": "23.0.8",
