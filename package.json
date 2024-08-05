@@ -39,7 +39,7 @@
     "@semantic-release/npm": "12.0.1",
     "@semantic-release/release-notes-generator": "13.0.0",
     "@types/semantic-release": "20.0.6",
-    "@vitest/coverage-v8": "^1.0.0",
+    "@vitest/coverage-v8": "^2.0.0",
     "all-contributors-cli": "6.26.1",
     "concurrently": "8.2.2",
     "conventional-changelog-conventionalcommits": "7.0.2",
@@ -53,7 +53,7 @@
     "typescript": "5.5.4",
     "unplugin-auto-import": "0.17.5",
     "vite": "5.3.5",
-    "vitest": "1.6.0"
+    "vitest": "2.0.5"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
