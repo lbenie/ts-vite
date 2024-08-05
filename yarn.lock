@@ -561,10 +561,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lbenie/linting@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.0.tgz#d8e69796d273017922c77e67c886bc9b469cf808"
-  integrity sha512-Ob4WID6+JJnCuIB6QtBpsH6OrdqbzVG6nrm2tu48jxbCdg64SBHHzUQd26jRYmT9tGspQ2zjabM1/v5qMP69pQ==
+"@lbenie/linting@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.1.tgz#4f0a9ddababf69058649a3cf044583718e0ac213"
+  integrity sha512-c7pap+IRa+O3j2eznfY/PIw3POCMM4/7MtOKX5LLwjcDB04AbnD0c4G7l3QFqztGzhGsRBl/+rJqRF6OPJXinw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.0.0"
     "@typescript-eslint/parser" "8.0.0"
