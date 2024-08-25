@@ -43,7 +43,7 @@
     "all-contributors-cli": "6.26.1",
     "concurrently": "8.2.2",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "jsdom": "24.1.1",
+    "jsdom": "24.1.2",
     "msw": "2.3.5",
     "rollup": "4.21.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
