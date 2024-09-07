@@ -3683,6 +3683,11 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
+graphql@^16.8.1:
+  version "16.9.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.9.0.tgz#1c310e63f16a49ce1fbb230bd0a000e99f6f115f"
+  integrity sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==
+
 handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
@@ -4982,10 +4987,10 @@ ms@^2.0.0, ms@^2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-msw@2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-2.4.2.tgz#df8040975b2bf92ebc0a16d1c9e9f138c3c8765c"
-  integrity sha512-GImSQGhn19czhVpxPdiUDK8CMZ6jbBcvOhzfJd8KFErjEER2wDKWs1UYaetJs2GSNlAqt6heZYm7g3eLatTcog==
+msw@2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-2.4.3.tgz#e55ee0067ae14852a9296821225704d895fe49b1"
+  integrity sha512-PXK3wOQHwDtz6JYVyAVlQtzrLr6bOAJxggw5UHm3CId79+W7238aNBD1zJVkFY53o/DMacuIfgesW2nv9yCO3Q==
   dependencies:
     "@bundled-es-modules/cookie" "^2.0.0"
     "@bundled-es-modules/statuses" "^1.0.1"
@@ -4996,6 +5001,7 @@ msw@2.4.2:
     "@types/cookie" "^0.6.0"
     "@types/statuses" "^2.0.4"
     chalk "^4.1.2"
+    graphql "^16.8.1"
     headers-polyfill "^4.0.2"
     is-node-process "^1.2.0"
     outvariant "^1.4.2"
