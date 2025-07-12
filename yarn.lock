@@ -1723,12 +1723,12 @@
   dependencies:
     "@types/node" "*"
 
-"@types/semantic-release@20.0.6":
-  version "20.0.6"
-  resolved "https://registry.yarnpkg.com/@types/semantic-release/-/semantic-release-20.0.6.tgz#9883bd8557829af92097eea0e089b3c2f4213573"
-  integrity sha512-8YJXvsT1FwMrNdZI1e6NBHPzZWendDiUsLryzxurdup+9LnV3s9fF4NgO0D3LkBfLMnocb4Ax6TQ5yFdF3dXGQ==
+"@types/semantic-release@21.1.0":
+  version "21.1.0"
+  resolved "https://registry.yarnpkg.com/@types/semantic-release/-/semantic-release-21.1.0.tgz#41f2744d6cd506a9bfac69a052b91249c86308e0"
+  integrity sha512-9eGzz0L35u5W7B67x4OpCYfmWUqEre/pqW7PY389vbSFZigBc/Rr9uNNWIkMuy+q6QvfU+nknvXtiwFccDx4+g==
   dependencies:
-    "@types/node" "*"
+    semantic-release "*"
 
 "@types/semver@^7.5.5":
   version "7.5.8"
@@ -6233,7 +6233,7 @@ scule@^1.3.0:
   resolved "https://registry.yarnpkg.com/scule/-/scule-1.3.0.tgz#6efbd22fd0bb801bdcc585c89266a7d2daa8fbd3"
   integrity sha512-6FtHJEvt+pVMIB9IBY+IcCJ6Z5f1iQnytgyfKMhDKgmzYG+TeH/wx1y3l27rshSbLiSanrR9ffZDrEsmjlQF2g==
 
-semantic-release@24.2.7:
+semantic-release@*, semantic-release@24.2.7:
   version "24.2.7"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.2.7.tgz#86a0d8331c6200175d0ad6f66a7b26efdef95e12"
   integrity sha512-g7RssbTAbir1k/S7uSwSVZFfFXwpomUB9Oas0+xi9KStSCmeDXcA7rNhiskjLqvUe/Evhx8fVCT16OSa34eM5g==
