@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: "latest"
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: pnpm install --frozen-lockfile
       - name: Run format
         run: pnpm format
       - name: Commit changes

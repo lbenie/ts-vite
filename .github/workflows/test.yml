@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: "latest"
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: pnpm install --frozen-lockfile
       - name: Test code
         run: pnpm test
       #   env:

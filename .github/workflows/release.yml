@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "latest"
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: pnpm install --frozen-lockfile --prod
       - name: Build module
         run: pnpm build
       - name: Semantic Release
