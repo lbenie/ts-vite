@@ -42,7 +42,7 @@
     "@vitest/coverage-v8": "^4.0.0",
     "all-contributors-cli": "6.26.1",
     "concurrently": "9.2.1",
-    "conventional-changelog-conventionalcommits": "9.2.0",
+    "conventional-changelog-conventionalcommits": "9.3.0",
     "jsdom": "26.1.0",
     "msw": "2.12.10",
     "rollup": "4.59.0",
