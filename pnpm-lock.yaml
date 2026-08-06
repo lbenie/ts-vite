@@ -16,25 +16,25 @@ importers:
         version: 12.3.0(rollup@4.62.4)(tslib@2.8.1)(typescript@6.0.3)
       '@semantic-release/changelog':
         specifier: 7.0.0
-        version: 7.0.0(semantic-release@25.0.9(typescript@6.0.3))
+        version: 7.0.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))
       '@semantic-release/commit-analyzer':
         specifier: 13.0.1
-        version: 13.0.1(semantic-release@25.0.9(typescript@6.0.3))
+        version: 13.0.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       '@semantic-release/git':
         specifier: 11.0.1
-        version: 11.0.1(semantic-release@25.0.9(typescript@6.0.3))
+        version: 11.0.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       '@semantic-release/github':
         specifier: 12.0.9
-        version: 12.0.9(semantic-release@25.0.9(typescript@6.0.3))
+        version: 12.0.9(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       '@semantic-release/npm':
         specifier: 13.1.5
-        version: 13.1.5(semantic-release@25.0.9(typescript@6.0.3))
+        version: 13.1.5(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))
       '@semantic-release/release-notes-generator':
         specifier: 14.1.1
-        version: 14.1.1(semantic-release@25.0.9(typescript@6.0.3))
+        version: 14.1.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       '@types/semantic-release':
         specifier: 21.1.0
-        version: 21.1.0(typescript@6.0.3)
+        version: 21.1.0(supports-color@10.2.2)(typescript@6.0.3)
       '@vitest/coverage-v8':
         specifier: ^4.0.0
         version: 4.1.10(vitest@4.1.10)
@@ -61,7 +61,7 @@ importers:
         version: 2.2.4(rollup@4.62.4)
       semantic-release:
         specifier: 25.0.9
-        version: 25.0.9(typescript@6.0.3)
+        version: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
       tslib:
         specifier: 2.8.1
         version: 2.8.1
@@ -73,13 +73,13 @@ importers:
         version: 6.0.3
       unplugin-auto-import:
         specifier: 21.1.0
-        version: 21.1.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
+        version: 21.1.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       vite:
-        specifier: 8.2.0
-        version: 8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)
+        specifier: 8.2.1
+        version: 8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))
       vitest:
         specifier: 4.1.10
-        version: 4.1.10(@types/node@25.2.1)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
+        version: 4.1.10(@types/node@25.2.1)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
 
 packages:
 
@@ -2681,8 +2681,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  vite@8.2.0:
-    resolution: {integrity: sha512-pn+CFpM0lwDeKwmOq1ZaBK/9sjorZcgqxki6MbY/jPEVd9vichIlmlD4HmQ5wdP5EgqQCFRaACBxMC7uEGc6lQ==}
+  vite@8.2.1:
+    resolution: {integrity: sha512-EU/eS7BH3XROHh2YnBefjM6DBKA6ZeMZEYQbj7NLWg5wHYlhB8B/Mayd5XsgWq+NFYccDOTemRpdETWR6Ka/lw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3405,44 +3405,44 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@semantic-release/changelog@7.0.0(semantic-release@25.0.9(typescript@6.0.3))':
+  '@semantic-release/changelog@7.0.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
       lodash-es: 4.17.23
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
 
-  '@semantic-release/commit-analyzer@13.0.1(semantic-release@25.0.9(typescript@6.0.3))':
+  '@semantic-release/commit-analyzer@13.0.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)':
     dependencies:
       conventional-changelog-angular: 8.1.0
       conventional-changelog-writer: 8.2.0
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.2.1
-      debug: 4.4.3
-      import-from-esm: 2.0.0
+      debug: 4.4.3(supports-color@10.2.2)
+      import-from-esm: 2.0.0(supports-color@10.2.2)
       lodash-es: 4.17.23
       micromatch: 4.0.8
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/git@11.0.1(semantic-release@25.0.9(typescript@6.0.3))':
+  '@semantic-release/git@11.0.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       dir-glob: 3.0.1
       execa: 10.0.1
       lodash-es: 4.17.23
       micromatch: 4.0.8
       p-reduce: 3.0.0
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@12.0.9(semantic-release@25.0.9(typescript@6.0.3))':
+  '@semantic-release/github@12.0.9(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)':
     dependencies:
       '@octokit/core': 7.0.6
       '@octokit/plugin-paginate-rest': 14.0.0(@octokit/core@7.0.6)
@@ -3450,22 +3450,22 @@ snapshots:
       '@octokit/plugin-throttling': 11.0.3(@octokit/core@7.0.6)
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       dir-glob: 3.0.1
-      http-proxy-agent: 9.0.0
-      https-proxy-agent: 9.0.0
+      http-proxy-agent: 9.0.0(supports-color@10.2.2)
+      https-proxy-agent: 9.0.0(supports-color@10.2.2)
       issue-parser: 7.0.1
       lodash-es: 4.17.23
       mime: 4.1.0
       p-filter: 4.1.0
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
       tinyglobby: 0.2.17
       undici: 7.20.0
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/npm@13.1.5(semantic-release@25.0.9(typescript@6.0.3))':
+  '@semantic-release/npm@13.1.5(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))':
     dependencies:
       '@actions/core': 3.0.0
       '@semantic-release/error': 4.0.0
@@ -3480,21 +3480,21 @@ snapshots:
       rc: 1.2.8
       read-pkg: 10.0.0
       registry-auth-token: 5.1.1
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
       semver: 7.7.4
       tempy: 3.2.0
 
-  '@semantic-release/release-notes-generator@14.1.1(semantic-release@25.0.9(typescript@6.0.3))':
+  '@semantic-release/release-notes-generator@14.1.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)':
     dependencies:
       conventional-changelog-angular: 8.1.0
       conventional-changelog-writer: 8.2.0
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.2.1
-      debug: 4.4.3
-      import-from-esm: 2.0.0
+      debug: 4.4.3(supports-color@10.2.2)
+      import-from-esm: 2.0.0(supports-color@10.2.2)
       lodash-es: 4.17.23
       read-package-up: 11.0.0
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -3526,9 +3526,9 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/semantic-release@21.1.0(typescript@6.0.3)':
+  '@types/semantic-release@21.1.0(supports-color@10.2.2)(typescript@6.0.3)':
     dependencies:
-      semantic-release: 25.0.9(typescript@6.0.3)
+      semantic-release: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3551,7 +3551,7 @@ snapshots:
       obug: 2.1.3
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.10(@types/node@25.2.1)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
+      vitest: 4.1.10(@types/node@25.2.1)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
 
   '@vitest/expect@4.1.10':
     dependencies:
@@ -3562,14 +3562,14 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.10(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))':
+  '@vitest/mocker@4.1.10(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))':
     dependencies:
       '@vitest/spy': 4.1.10
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
       msw: 2.15.0(@types/node@25.2.1)(typescript@6.0.3)
-      vite: 8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)
+      vite: 8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))
 
   '@vitest/pretty-format@4.1.10':
     dependencies:
@@ -3868,9 +3868,11 @@ snapshots:
     transitivePeerDependencies:
       - '@noble/hashes'
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@10.2.2):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 10.2.2
 
   decamelize@1.2.0: {}
 
@@ -4158,17 +4160,17 @@ snapshots:
 
   html-escaper@2.0.2: {}
 
-  http-proxy-agent@9.0.0:
+  http-proxy-agent@9.0.0(supports-color@10.2.2):
     dependencies:
       agent-base: 9.0.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
 
-  https-proxy-agent@9.0.0:
+  https-proxy-agent@9.0.0(supports-color@10.2.2):
     dependencies:
       agent-base: 9.0.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -4185,9 +4187,9 @@ snapshots:
       parent-module: 1.0.1
       resolve-from: 4.0.0
 
-  import-from-esm@2.0.0:
+  import-from-esm@2.0.0(supports-color@10.2.2):
     dependencies:
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       import-meta-resolve: 4.2.0
     transitivePeerDependencies:
       - supports-color
@@ -4894,16 +4896,16 @@ snapshots:
 
   scule@1.3.0: {}
 
-  semantic-release@25.0.9(typescript@6.0.3):
+  semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3):
     dependencies:
-      '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.9(typescript@6.0.3))
+      '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 12.0.9(semantic-release@25.0.9(typescript@6.0.3))
-      '@semantic-release/npm': 13.1.5(semantic-release@25.0.9(typescript@6.0.3))
-      '@semantic-release/release-notes-generator': 14.1.1(semantic-release@25.0.9(typescript@6.0.3))
+      '@semantic-release/github': 12.0.9(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
+      '@semantic-release/npm': 13.1.5(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))
+      '@semantic-release/release-notes-generator': 14.1.1(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.0(typescript@6.0.3)
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       env-ci: 11.2.0
       execa: 9.6.1
       figures: 6.1.0
@@ -4912,7 +4914,7 @@ snapshots:
       git-log-parser: 1.2.1
       hook-std: 4.0.0
       hosted-git-info: 9.0.2
-      import-from-esm: 2.0.0
+      import-from-esm: 2.0.0(supports-color@10.2.2)
       lodash-es: 4.17.23
       marked: 15.0.12
       marked-terminal: 7.3.0(marked@15.0.12)
@@ -5044,10 +5046,10 @@ snapshots:
     dependencies:
       js-tokens: 10.0.0
 
-  stylus@0.57.0:
+  stylus@0.57.0(supports-color@10.2.2):
     dependencies:
       css: 3.0.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       glob: 7.2.3
       safer-buffer: 2.1.2
       sax: 1.2.4
@@ -5198,7 +5200,7 @@ snapshots:
 
   unicorn-magic@0.3.0: {}
 
-  unimport@6.4.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)):
+  unimport@6.4.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
     dependencies:
       acorn: 8.18.0
       escape-string-regexp: 5.0.0
@@ -5212,7 +5214,7 @@ snapshots:
       scule: 1.3.0
       strip-literal: 4.0.0
       tinyglobby: 0.2.17
-      unplugin: 3.3.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
+      unplugin: 3.3.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       unplugin-utils: 0.3.2
     optionalDependencies:
       rolldown: 1.2.1
@@ -5234,13 +5236,13 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unplugin-auto-import@21.1.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)):
+  unplugin-auto-import@21.1.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
     dependencies:
       local-pkg: 1.2.1
       magic-string: 1.1.0
       picomatch: 4.0.5
-      unimport: 6.4.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
-      unplugin: 3.3.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
+      unimport: 6.4.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
+      unplugin: 3.3.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       unplugin-utils: 0.3.2
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -5259,7 +5261,7 @@ snapshots:
       pathe: 2.0.3
       picomatch: 4.0.5
 
-  unplugin@3.3.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)):
+  unplugin@3.3.0(esbuild@0.27.2)(rolldown@1.2.1)(rollup@4.62.4)(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       picomatch: 4.0.5
@@ -5268,7 +5270,7 @@ snapshots:
       esbuild: 0.27.2
       rolldown: 1.2.1
       rollup: 4.62.4
-      vite: 8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)
+      vite: 8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))
 
   until-async@3.0.2: {}
 
@@ -5281,7 +5283,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0):
+  vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
@@ -5292,12 +5294,12 @@ snapshots:
       '@types/node': 25.2.1
       esbuild: 0.27.2
       fsevents: 2.3.3
-      stylus: 0.57.0
+      stylus: 0.57.0(supports-color@10.2.2)
 
-  vitest@4.1.10(@types/node@25.2.1)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)):
+  vitest@4.1.10(@types/node@25.2.1)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
     dependencies:
       '@vitest/expect': 4.1.10
-      '@vitest/mocker': 4.1.10(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0))
+      '@vitest/mocker': 4.1.10(msw@2.15.0(@types/node@25.2.1)(typescript@6.0.3))(vite@8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       '@vitest/pretty-format': 4.1.10
       '@vitest/runner': 4.1.10
       '@vitest/snapshot': 4.1.10
@@ -5314,7 +5316,7 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
-      vite: 8.2.0(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0)
+      vite: 8.2.1(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 25.2.1
