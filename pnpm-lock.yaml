@@ -218,8 +218,8 @@ importers:
         specifier: 30.1.3
         version: 30.1.3
       msw:
-        specifier: 3.0.6
-        version: 3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
+        specifier: 3.0.7
+        version: 3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       rollup:
         specifier: 4.68.5
         version: 4.68.5
@@ -246,7 +246,7 @@ importers:
         version: 8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))
       vitest:
         specifier: 5.1.0
-        version: 5.1.0(@types/node@25.2.1)(@vitest/coverage-v8@5.1.0)(jsdom@30.1.3)(msw@3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
+        version: 5.1.0(@types/node@25.2.1)(@vitest/coverage-v8@5.1.0)(jsdom@30.1.3)(msw@3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
 
 packages:
 
@@ -635,8 +635,8 @@ packages:
   '@lbenie/linting@2.1.20':
     resolution: {integrity: sha512-eU3B7QPmOJ6XMTV32Jf13NmxxsWsyv2tAtzwER8RyqJ/h474krn5f3guT8ga03x0nMEoZZmjO4kMO3Iq490QzA==}
 
-  '@msw/url@0.1.2':
-    resolution: {integrity: sha512-DdeBLQxQ+ZrtmwEmaj7GQ7lbzPCgbbbyAqOz/I4ulo68hwBpfdNvQJ5bmihJUkAAKOeCmqCIG3OFZGosqFN4mA==}
+  '@msw/url@0.1.3':
+    resolution: {integrity: sha512-IvN0kCVRFtr12gBS3Nk8PRqjWjE/80ydze2DNQ0Z74ZjnMDWibVoaYFqGv9vR2LoiUfcVgEVaBWLFyp15M5YJg==}
 
   '@mswjs/interceptors@0.45.11':
     resolution: {integrity: sha512-+ISPERIRIHhSVnFQRGCP9jDJXxn0/z2+pWWbXUym6JUfpUCRW2Pvro4P9RBKGYUKTKAULszKurKMTQIsaJUIgQ==}
@@ -1956,8 +1956,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msw@3.0.6:
-    resolution: {integrity: sha512-0Axg6UFY1TulPoNYIEA2sk5h30CYa+02vSxtmcBC8WefnmewzXArKhhFyIFxIH3CgRltDLcgYHQ3k9WWWvFd0A==}
+  msw@3.0.7:
+    resolution: {integrity: sha512-e9BmzG3HN2J8VOUbEYU7OJQ7tgNS7GfPmG86jv3hKZks0iiFA0sh1colqLVjPEckU+QLWjWNximsLzykVdINgQ==}
     engines: {node: '>=22.12.0'}
     hasBin: true
     peerDependencies:
@@ -3270,7 +3270,7 @@ snapshots:
     dependencies:
       '@biomejs/biome': 2.5.11
 
-  '@msw/url@0.1.2': {}
+  '@msw/url@0.1.3': {}
 
   '@mswjs/interceptors@0.45.11(supports-color@10.2.2)':
     dependencies:
@@ -3651,7 +3651,7 @@ snapshots:
       obug: 3.0.0
       std-env: 4.3.0
       tinyrainbow: 3.2.0
-      vitest: 5.1.0(@types/node@25.2.1)(@vitest/coverage-v8@5.1.0)(jsdom@30.1.3)(msw@3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
+      vitest: 5.1.0(@types/node@25.2.1)(@vitest/coverage-v8@5.1.0)(jsdom@30.1.3)(msw@3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
 
   '@vitest/istanbul-lib-coverage@2.1.0': {}
 
@@ -3659,14 +3659,14 @@ snapshots:
     dependencies:
       '@vitest/istanbul-lib-coverage': 2.1.0
 
-  '@vitest/mocker@5.1.0(msw@3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))':
+  '@vitest/mocker@5.1.0(msw@3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@vitest/spy': 5.1.0
       estree-walker: 3.0.3
       magic-string: 1.4.3
     optionalDependencies:
-      msw: 3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
+      msw: 3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       vite: 8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))
 
   '@vitest/spy@5.1.0': {}
@@ -4548,10 +4548,10 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
+  msw@3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
     dependencies:
       '@inquirer/confirm': 6.0.11(@types/node@25.2.1)
-      '@msw/url': 0.1.2
+      '@msw/url': 0.1.3
       '@mswjs/interceptors': 0.45.11(supports-color@10.2.2)
       cookie: 2.0.1
       headers-polyfill: 5.0.1
@@ -5339,10 +5339,10 @@ snapshots:
       fsevents: 2.3.3
       stylus: 0.57.0(supports-color@10.2.2)
 
-  vitest@5.1.0(@types/node@25.2.1)(@vitest/coverage-v8@5.1.0)(jsdom@30.1.3)(msw@3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
+  vitest@5.1.0(@types/node@25.2.1)(@vitest/coverage-v8@5.1.0)(jsdom@30.1.3)(msw@3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))):
     dependencies:
       '@types/chai': 5.2.3
-      '@vitest/mocker': 5.1.0(msw@3.0.6(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
+      '@vitest/mocker': 5.1.0(msw@3.0.7(@types/node@25.2.1)(graphql@16.13.2)(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2))))(vite@8.3.8(@types/node@25.2.1)(esbuild@0.27.2)(stylus@0.57.0(supports-color@10.2.2)))
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
